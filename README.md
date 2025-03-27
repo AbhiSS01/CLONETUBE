@@ -12,15 +12,13 @@ CloveTube is a modern video sharing and streaming platform inspired by YouTube, 
 - Content Creation
 - Like and Comment Systems
 - Recommended Videos
-- User Profiles
+- Dummy Data
 
 ### Technology Stack
 - **Frontend:** React.js
-- **Styling:** CSS3, Tailwind CSS
+- **Styling:** CSS3, Bootstrap
 - **State Management:** React Hooks
 - **Routing:** React Router
-- **Backend (Planned):** Node.js, Express
-- **Database (Planned):** MongoDB
 
 ## 📦 Prerequisites
 - Node.js (v16.0.0 or later)
