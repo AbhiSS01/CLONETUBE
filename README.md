@@ -1,9 +1,9 @@
-# CloveTube 📺
+# CloneTube 
 
 ## Overview
 CloveTube is a modern video sharing and streaming platform inspired by YouTube, built using React and cutting-edge web technologies. This project aims to replicate core features of YouTube while providing a smooth, responsive user experience.
 
-## 🚀 Features
+##  Features
 
 ### Core Features
 - Video Streaming
@@ -12,15 +12,13 @@ CloveTube is a modern video sharing and streaming platform inspired by YouTube, 
 - Content Creation
 - Like and Comment Systems
 - Recommended Videos
-- User Profiles
+- Dummy Data
 
 ### Technology Stack
 - **Frontend:** React.js
-- **Styling:** CSS3, Tailwind CSS
+- **Styling:** CSS3, Bootstrap
 - **State Management:** React Hooks
 - **Routing:** React Router
-- **Backend (Planned):** Node.js, Express
-- **Database (Planned):** MongoDB
 
 ## 📦 Prerequisites
 - Node.js (v16.0.0 or later)
@@ -31,7 +29,7 @@ CloveTube is a modern video sharing and streaming platform inspired by YouTube, 
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/clonetube.git
+git clone https://github.com/AbhiSS01/CLONETUBE.git
 cd clonetube
 ```
 
@@ -80,10 +78,10 @@ clonetube/
 
 ## 🔗 Contact
 Your Name - [Abhijit Sahoo]
-Project Link: [https://github.com/AbhiSS01/clonetube](https://github.com/yourusername/clonetube)
+Project Link: [https://github.com/AbhiSS01/CLONETUBE](https://github.com/AbhiSS01/CLONETUBE.git)
+Project Experience: [CLONETUBE](https://clonetube-a.netlify.app)
 
 ## 🙏 Acknowledgements
 - React.js
-- Tailwind CSS
+- Bootstrap
 - YouTube (Inspiration)
-```
