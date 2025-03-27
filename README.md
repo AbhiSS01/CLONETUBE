@@ -31,7 +31,7 @@ CloveTube is a modern video sharing and streaming platform inspired by YouTube, 
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/clonetube.git
+git clone https://github.com/AbhiSS01/CLONETUBE.git
 cd clonetube
 ```
 
@@ -80,10 +80,10 @@ clonetube/
 
 ## 🔗 Contact
 Your Name - [Abhijit Sahoo]
-Project Link: [https://github.com/AbhiSS01/clonetube](https://github.com/yourusername/clonetube)
+Project Link: [https://github.com/AbhiSS01/CLONETUBE](https://github.com/AbhiSS01/CLONETUBE.git)
 
 ## 🙏 Acknowledgements
 - React.js
-- Tailwind CSS
+- Bootstrap
 - YouTube (Inspiration)
 ```
