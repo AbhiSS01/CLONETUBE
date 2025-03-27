@@ -1,0 +1,9 @@
+.home-page {
+    padding: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .home-page {
+      padding: 16px 0;
+    }
+  }

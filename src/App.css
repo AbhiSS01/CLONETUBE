@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+  transition: all 0.3s ease;
+}
+
+.sidebar {
+  width: 240px;
+  transition: width 0.3s ease;
+  overflow-x: hidden;
+}
+
+.sidebar.closed {
+  width: 72px;
+}
+
+.content-area {
+  flex-grow: 1;
+  overflow-y: auto;
+  transition: width 0.3s ease;
+  width: calc(100% - 240px);
+}
+
+.sidebar.closed + .content-area {
+  width: calc(100% - 72px);
+}

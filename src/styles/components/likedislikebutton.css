@@ -1,0 +1,45 @@
+.like-dislike-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.like-btn, .dislike-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: #606060;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+[data-theme='dark'] .like-btn, 
+[data-theme='dark'] .dislike-btn {
+    color: #a0a0a0;
+}
+
+.like-btn svg, .dislike-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.like-btn.active svg {
+    color: #065fd4;
+}
+
+.dislike-btn.active svg {
+    color: #ff0000;
+}
+
+.like-btn span, .dislike-btn span {
+    font-size: 0.875rem;
+    transition: color 0.3s;
+}
+
+[data-theme='dark'] .like-btn.active, 
+[data-theme='dark'] .dislike-btn.active {
+    color: #ffffff;
+}

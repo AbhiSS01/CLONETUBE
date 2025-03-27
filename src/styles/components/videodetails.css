@@ -1,0 +1,174 @@
+.video-details-page {
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-video-content {
+    flex: 3;
+    margin-right: 24px;
+}
+
+.related-videos {
+    flex: 1;
+    min-width: 300px;
+}
+
+.video-player-container {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.video-player {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: black;
+}
+
+.video-info-container {
+    margin-bottom: 16px;
+}
+
+.video-title {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.video-metadata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.channel-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.channel-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.channel-name{
+    font-size: 1.5rem;
+}
+.like-dislike-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.like-btn, .dislike-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe-btn {
+    margin-left: auto;
+    padding: 8px 16px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.subscribe-btn.subscribed {
+    background-color: #606060;
+}
+
+.related-videos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.related-video-item {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.related-video-thumbnail {
+    position: relative;
+    width: 168px;
+    margin-right: 8px;
+}
+
+.related-video-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.video-duration {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 2px 4px;
+    font-size: 0.75rem;
+    border-radius: 2px;
+}
+
+.comments-section {
+    margin-top: 24px;
+}
+
+.comment-form {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.comment-form input {
+    flex-grow: 1;
+    margin: 0 12px;
+    padding: 8px;
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.comment-item {
+    display: flex;
+}
+
+.comment-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.comment-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+@media (max-width: 991.98px) {
+    .video-details-page {
+      flex-direction: column;
+    }
+  
+    .main-video-content,
+    .related-videos {
+      width: 100%;
+    }
+  
+    .related-videos {
+      margin-top: 20px;
+    }
+  }

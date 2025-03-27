@@ -1,0 +1,80 @@
+.shorts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; /* Ensure full viewport width */
+    background-color: #000;
+    color: #030202;
+    margin: 0;
+    padding: 0;
+    position: fixed; /* Use fixed positioning to ensure true center */
+    top: 0;
+    left: 0;
+}
+
+.shorts-video-container {
+    position: relative;
+    width: 350px;
+    height: 620px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%; /* Responsive width */
+    max-height: 90vh; /* Ensure it doesn't overflow on smaller screens */
+}
+
+/* Rest of the CSS remains the same */
+.shorts-video-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shorts-video-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shorts-navigation {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.shorts-nav-btn {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.shorts-video-info {
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+}
+
+.shorts-actions {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.shorts-action-btn {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
