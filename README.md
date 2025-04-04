@@ -8,8 +8,6 @@ CloveTube is a modern video sharing and streaming platform inspired by YouTube, 
 ### Core Features
 - Video Streaming
 - Shorts-style Video Playback
-- User Authentication
-- Content Creation
 - Like and Comment Systems
 - Recommended Videos
 - Dummy Data
