@@ -1,7 +1,7 @@
 # CloneTube 
 
 ## Overview
-CloveTube is a modern video sharing and streaming platform inspired by YouTube, built using React and cutting-edge web technologies. This project aims to replicate core features of YouTube while providing a smooth, responsive user experience.
+CloneTube is a modern video sharing and streaming platform inspired by YouTube, built using React and cutting-edge web technologies. This project aims to replicate core features of YouTube while providing a smooth, responsive user experience.
 
 ##  Features
 
@@ -13,8 +13,8 @@ CloveTube is a modern video sharing and streaming platform inspired by YouTube, 
 - Dummy Data
 
 ### Technology Stack
-- **Frontend:** React.js
-- **Styling:** CSS3, Bootstrap
+- **Frontend:** React.js, vite
+- **Styling:** CSS5, Bootstrap
 - **State Management:** React Hooks
 - **Routing:** React Router
 
